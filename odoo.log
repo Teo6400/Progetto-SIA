@@ -1,0 +1,99 @@
+2024-08-05 07:11:12,252 3440 INFO ? odoo: Odoo version 17.0-20240801 
+2024-08-05 07:11:12,252 3440 INFO ? odoo: Using configuration file at C:\odoo 17\server\odoo.conf 
+2024-08-05 07:11:12,252 3440 INFO ? odoo: addons paths: ['C:\\odoo 17\\server\\odoo\\addons', 'c:\\odoo 17\\sessions\\addons\\17.0', 'c:\\odoo 17\\server\\odoo\\addons'] 
+2024-08-05 07:11:12,252 3440 INFO ? odoo: database: openpg@localhost:5432 
+2024-08-05 07:11:13,955 3440 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\odoo 17\thirdparty\wkhtmltopdf.exe 
+2024-08-05 07:11:14,960 3440 WARNING ? py.warnings: C:\odoo 17\python\Lib\site-packages\vobject\base.py:736: SyntaxWarning: invalid escape sequence '\-'
+  File "C:\odoo 17\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\odoo 17\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\odoo 17\server\odoo\cli\server.py", line 184, in run
+    main(args)
+  File "C:\odoo 17\server\odoo\cli\server.py", line 177, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\odoo 17\server\odoo\service\server.py", line 1359, in start
+    load_server_wide_modules()
+  File "C:\odoo 17\server\odoo\service\server.py", line 1262, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\odoo 17\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "C:\odoo 17\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\odoo 17\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "C:\odoo 17\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\odoo 17\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\odoo 17\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\odoo 17\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-08-05 07:11:14,963 3440 WARNING ? py.warnings: C:\odoo 17\python\Lib\site-packages\vobject\base.py:1219: SyntaxWarning: invalid escape sequence '\;'
+  File "C:\odoo 17\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\odoo 17\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\odoo 17\server\odoo\cli\server.py", line 184, in run
+    main(args)
+  File "C:\odoo 17\server\odoo\cli\server.py", line 177, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\odoo 17\server\odoo\service\server.py", line 1359, in start
+    load_server_wide_modules()
+  File "C:\odoo 17\server\odoo\service\server.py", line 1262, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\odoo 17\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "C:\odoo 17\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\odoo 17\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "C:\odoo 17\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\odoo 17\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\odoo 17\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\odoo 17\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-08-05 07:11:14,963 3440 WARNING ? py.warnings: C:\odoo 17\python\Lib\site-packages\vobject\base.py:1219: SyntaxWarning: invalid escape sequence '\,'
+  File "C:\odoo 17\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\odoo 17\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\odoo 17\server\odoo\cli\server.py", line 184, in run
+    main(args)
+  File "C:\odoo 17\server\odoo\cli\server.py", line 177, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\odoo 17\server\odoo\service\server.py", line 1359, in start
+    load_server_wide_modules()
+  File "C:\odoo 17\server\odoo\service\server.py", line 1262, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\odoo 17\server\odoo\modules\module.py", line 395, in load_openerp_module
+    __import__(qualname)
+  File "C:\odoo 17\server\odoo\addons\web\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\odoo 17\server\odoo\addons\web\models\__init__.py", line 11, in <module>
+    from . import res_partner
+  File "C:\odoo 17\server\odoo\addons\web\models\res_partner.py", line 12, in <module>
+    import vobject
+  File "C:\odoo 17\python\Lib\site-packages\vobject\__init__.py", line 79, in <module>
+    from .base import newFromBehavior, readOne, readComponents
+  File "C:\odoo 17\python\Lib\warnings.py", line 110, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\odoo 17\server\odoo\netsvc.py", line 288, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2024-08-05 07:11:15,036 3440 INFO ? odoo.service.server: Initiating shutdown 
+2024-08-05 07:11:15,036 3440 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-08-05 07:11:24,770 19236 INFO ? odoo: Odoo version 17.0-20240801 
+2024-08-05 07:11:24,771 19236 INFO ? odoo: Using configuration file at C:\odoo 17\server\odoo.conf 
+2024-08-05 07:11:24,771 19236 INFO ? odoo: addons paths: ['C:\\odoo 17\\server\\odoo\\addons', 'c:\\odoo 17\\sessions\\addons\\17.0', 'c:\\odoo 17\\server\\odoo\\addons'] 
+2024-08-05 07:11:24,771 19236 INFO ? odoo: database: openpg@localhost:5432 
+2024-08-05 07:11:25,014 19236 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\odoo 17\thirdparty\wkhtmltopdf.exe 
+2024-08-05 07:11:25,547 19236 INFO ? odoo.service.server: HTTP service (werkzeug) running on Teo:8069 
+2024-08-05 07:11:25,579 19236 INFO ? odoo.sql_db: Connection to the database failed 
+2024-08-05 07:11:25,606 19236 INFO ? odoo.sql_db: Connection to the database failed 
